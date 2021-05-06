@@ -36,7 +36,7 @@ public class App {
 
         //items
         get("/items", (request, response) ->{
-            return new ModelAndView(new HashMap(), "Items.hbs");
+            return new ModelAndView(new HashMap(), "items.hbs");
         } , new HandlebarsTemplateEngine());
 
 
