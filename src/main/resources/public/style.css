@@ -12,3 +12,43 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/*NAVIGATION DESIGN*/
+nav{
+    background: #faf8f6;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    color: #070707;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 6px 100px;
+    font-weight: bold;
+}
+
+.main-nav{
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-item{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.nav-link{
+    color: #000000;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+/*!* NAVIGATION DONE *!*/
