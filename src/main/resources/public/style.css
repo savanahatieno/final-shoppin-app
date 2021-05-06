@@ -52,3 +52,50 @@ nav{
 
 
 /*!* NAVIGATION DONE *!*/
+
+/*MAIN SECTION*/
+
+.wrap{
+    background: rgba(0, 0, 0, 0.5) url("images/background-main-page.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 150vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+
+}
+
+.container{
+    max-width: 55%;
+    padding: 200px 80px 0;
+    color: #ffffff;
+}
+.container h1 {
+    font-size: 48px;
+}
+.container p {
+    font-size: 20px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.container .btn-group{
+    margin-top: 45px;
+    background-color: black;
+
+}
+
+.container a {
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius:40px ;
+}
+
+.container a.color1{
+    background-color: crimson;
+}
+
+
+
+/*END OF THE MAIN SECTION */
