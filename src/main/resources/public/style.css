@@ -105,7 +105,9 @@ nav{
 
 .content-table{
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: 25px 330px;
+    width: 800px;
+    left: 50%;
     font-size: 0.9em;
     min-width: 400px;
     border-radius: 5px 5px 0 0;
@@ -164,13 +166,15 @@ nav{
 
 .search_wrap{
     width: 500px;
-    margin: 28px auto;
+    margin: 28px 330px;
+
 }
 
 .search_wrap .search_box{
     position: relative;
-    width: 900px;
+    width: 800px;
     height: 60px;
+
 }
 
 .search_wrap .search_box .input{
