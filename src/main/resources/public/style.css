@@ -161,3 +161,15 @@ nav{
 
 
 /*END OF ITEM DESIGN */
+
+
+/*STORE DESIGN */
+
+.content-table-store{
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+/*END OF STORE DESIGN */
