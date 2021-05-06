@@ -56,7 +56,7 @@ nav{
 /*MAIN SECTION*/
 
 .wrap{
-    background: rgba(0, 0, 0, 0.5) url("images/background-main-page.jpg") no-repeat center;
+    background: rgba(0, 0, 0, 0.5) url("image/background-main-page.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     min-height: 150vh;
