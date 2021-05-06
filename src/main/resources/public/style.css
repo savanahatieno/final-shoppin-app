@@ -234,9 +234,14 @@ nav{
 
 .content-table-store{
     border-collapse: collapse;
-    margin: 25px;
+    margin: 25px 330px;
+    width: 800px;
+    left: 50%;
     font-size: 0.9em;
     min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .content-table-store thead tr {
@@ -246,8 +251,8 @@ nav{
     font-weight: bold;
 }
 
-.content-table-store thead,
-.content-table td {
+.content-table-store th,
+.content-table-store td {
     padding: 12px 15px;
 }
 
@@ -267,6 +272,8 @@ nav{
     font-weight: bold;
     color: #009879;
 }
+
+
 
 
 
