@@ -1,0 +1,52 @@
+{{#partial "styles"}}
+    <!--    Custom index page css-->
+    <link rel="stylesheet" href="/style.css">
+{{/partial}}
+
+{{#partial "content"}}
+    <div class="row" >
+        <div class="col" >
+            <div class="card card-body" >
+                <input type="text" id="search-input" class="form-control" >
+            </div>
+        </div>
+    </div>
+
+    <table class = "content-table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Board</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Store</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Shoe</td>
+            <td>Nike</td>
+            <td>1</td>
+            <td> $43 .00 </td>
+            <td data-label = "#" ><a href="#" class="btn" >Go to store</a>  </td>
+        </tr>
+        <tr>
+            <td>Coat</td>
+            <td>Valentino</td>
+            <td>2</td>
+            <td> $90 .00 </td>
+            <td data-label = "#" ><a href="#" class="btn" >Go to store</a>  </td>
+        </tr>
+        <tr>
+            <td>Kettle</td>
+            <td>Ramtons</td>
+            <td>1</td>
+            <td> $100 .00 </td>
+            <td data-label = "#" ><a href="#" class="btn" >Go to store</a>  </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+{{/partial}}
+{{>nav.hbs}}
